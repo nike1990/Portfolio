@@ -1,0 +1,37 @@
+.wrapProject{
+    width: 350px;
+    min-height: 660px;
+    background-color: white;
+    margin: 10px auto;
+    font: 30px Helvetica Neue, sans-serif;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.content-project p{
+    padding-top:  50px;
+}
+.head-project {
+    padding: 15px 0;
+    border-bottom: 1px solid silver;
+}
+.head-project h2 {
+    font:  32px/32px Helvetica Neue, sans-serif;
+    color: #82cbc9;
+}
+.head-project p {
+    font:  16px/26px Helvetica Neue, sans-serif;
+}
+
+@media screen and (min-width: 760px){
+    .wrapProject {
+        width: 740px;
+        min-height: 960px;
+
+    }
+}
+
+@media screen and (min-width: 1300px){
+    .wrapProject {
+        width: 1200px;
+    }
+}

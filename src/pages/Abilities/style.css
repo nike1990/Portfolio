@@ -1,0 +1,133 @@
+@keyframes mymove {
+    0% {margin-right: 0;}
+    100% {margin-right: 7px;}
+}
+.wrap-abilities{
+    text-align: center;
+    background: white;
+    margin: 10px auto ;
+    padding: 0 15px;
+    font: 18px Helvetica Neue, sans-serif;
+    width: 320px;
+    min-height: 660px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.head-abilities {
+    padding: 15px 0;
+    border-bottom: 1px solid silver;
+}
+.head-abilities h2 {
+    font:  32px/32px Helvetica Neue, sans-serif;
+    color: #82cbc9;
+}
+.head-abilities p {
+    font:  16px/26px Helvetica Neue, sans-serif;
+}
+.skills{
+    width: 320px;
+}
+.but{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.button{
+    height: 30px;
+    width: 100px;
+    padding: 0;
+    margin: 0;
+    font: 16px Helvetica Neue, sans-serif;
+    letter-spacing: 2px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #426dae;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.but a{
+    width: 100px;
+    margin: 0;
+    padding: 0;
+}
+.but a:first-child{
+    margin-right: 25px;
+}
+.nameSkill{
+    width: 100px;
+    margin-right: 100px;
+
+}
+.skillBlok:first-child{
+    margin-top: 30px;
+}
+.skillBlok{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+
+}
+.valueSkill{
+    margin: auto;
+}
+.circle{
+    width: 17px;
+    height: 17px;
+    margin-right: 2px;
+    float: left;
+    background-color: black;
+    border-radius: 50%;
+}
+.circleEmpty{
+    width: 15px;
+    height: 15px;
+    margin-right: 2px;
+    float: left;
+    border:1px solid black ;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.langSkill{
+    color: #22a39f;
+}
+.langConteiner{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    font: 26px Helvetica Neue, sans-serif;
+    justify-content: center;
+}
+
+.langName {
+    width: 150px;
+    float: left;
+}
+
+@media screen and (min-width: 760px){
+    .wrap-abilities {
+        width: 710px;
+        min-height: 960px;
+        justify-content: center;
+    }
+    .skills{
+        width: 710px;
+    }
+    .nameSkill{
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (min-width: 1300px){
+    .wrap-abilities {
+        width: 1200px;
+        padding: 0;
+    }
+
+    .skills{
+        width: 1200px;
+    }
+}

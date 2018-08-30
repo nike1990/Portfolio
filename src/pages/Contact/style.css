@@ -1,0 +1,58 @@
+.wrap-contact {
+    background: white;
+    margin: 10px 0 ;
+    padding: 0 15px;
+    font: 18px Helvetica Neue, sans-serif;
+    min-height: 660px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.link {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.link a{
+    margin-bottom: 30px;
+    vertical-align: middle;
+    font: 18px Helvetica Neue, sans-serif;
+    text-decoration: none;
+    color: #788ab3;
+}
+.link img {
+    margin-right: 12px;
+    vertical-align: middle;
+}
+.head-contact {
+    padding: 15px 0;
+    border-bottom: 1px solid silver;
+}
+.head-contact h2 {
+    font:  32px/32px Helvetica Neue, sans-serif;
+    color: #82cbc9;
+}
+.head-contact p {
+    font:  16px/26px Helvetica Neue, sans-serif;
+}
+.contact p {
+    padding-top: 40px;
+    margin-bottom: 80px;
+}
+
+@media screen and (min-width: 760px){
+    .wrap-contact {
+        width: 710px;
+        min-height: 960px;
+        justify-content: center;
+    }
+    .link {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1300px){
+    .wrap-contact {
+        width: 1200px;
+        padding: 0;
+    }
+}
