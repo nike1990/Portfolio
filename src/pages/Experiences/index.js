@@ -9,7 +9,6 @@ class Experiences extends Component {
             <div className="wrapExp">
                 <div className="head-experiences">
                     <h2>Experiences</h2>
-                    <p>I'm a creative Front-End developer</p>
                 </div>
                 <div className="wrapSkills ">
                     <div className="buttonCont">
@@ -17,8 +16,8 @@ class Experiences extends Component {
                         <Link to="/careers"><button className="buttonQ">Careers</button></Link>
                     </div>
                     <div className="infoCont right">
-                        <h4>NPU Dragomava</h4>
-                        <p>2015 - current time</p>
+                        <h4>NTUU KPI</h4>
+                        <p>2008 - 2014</p>
                     </div>
                     <div className="infoCont left">
                         <h4>Bachelor - Software Engineering</h4>

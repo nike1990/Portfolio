@@ -60,6 +60,23 @@
 @media screen and (min-width: 1300px){
     .wrap {
         width: 1200px;
+        min-height: 490px;
         padding: 0;
+    }
+    .head{
+        margin: 0 15px;
+    }
+    .content{
+        display: flex;
+        justify-content: center;
+    }
+    .details{
+        margin-top: 40px;
+    }
+    .about{
+        margin-right: 90px;
+    }
+    .about p {
+        width: 400px;
     }
 }

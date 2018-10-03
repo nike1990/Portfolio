@@ -9,7 +9,6 @@ class Careers extends Component {
             <div className="wrapExp">
                 <div className="head-experiences">
                     <h2>Experiences</h2>
-                    <p>I'm a creative Front-End developer</p>
                 </div>
                 <div className="wrapSkills">
                     <div className="buttonCont">

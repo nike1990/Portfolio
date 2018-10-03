@@ -1,37 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
+
 .wrapProject{
     width: 350px;
     min-height: 660px;
     background-color: white;
     margin: 10px auto;
-    font: 30px Helvetica Neue, sans-serif;
+    font: 30px 'Oswald', sans-serif;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
 .content-project p{
     padding-top:  50px;
 }
+.content-project{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
 .head-project {
     padding: 15px 0;
     border-bottom: 1px solid silver;
+    margin: 0 15px;
 }
 .head-project h2 {
-    font:  32px/32px Helvetica Neue, sans-serif;
+    font:  32px/32px 'Oswald', sans-serif;
     color: #82cbc9;
 }
 .head-project p {
-    font:  16px/26px Helvetica Neue, sans-serif;
+    font:  16px/26px 'Oswald', sans-serif;
+}
+.proj1{
+    width: 300px;
+    height: 250px;
+    margin-bottom: 30px;
+}
+
+.proj1:first-child{
+    margin-top: 30px;
+}
+
+.proj1 a{
+    display: inline-block;
+    width: 300px;
+    height: 250px;
+    text-decoration: none;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.5);
+
+}
+.hover{
+    width: 0;
+    height: 250px;
+    opacity: .8;
+    background-color: #080526;
+    position: absolute;
+    transition: all 1s;
+}
+
+.proj1 h2,
+.proj1 span{
+    position: relative;
+    left: 0px;
+    top: -150px;
+    color: white;
+    text-decoration: none;
+    opacity: 0;
+    transition: opacity 1s linear;
+}
+
+.proj1 span{
+    font:  16px 'Oswald', sans-serif;
+    font-weight: 200;
+    letter-spacing: 10px;
+}
+
+.proj1:hover .hover {
+    width: 300px;
+}
+
+.proj1:hover h2,
+.proj1:hover span{
+    opacity: 1;
 }
 
 @media screen and (min-width: 760px){
     .wrapProject {
         width: 740px;
         min-height: 960px;
-
+    }
+    .proj1{
+        margin: 30px;
+    }
+    .proj1:last-child{
+        margin: 0px;
     }
 }
 
 @media screen and (min-width: 1300px){
     .wrapProject {
         width: 1200px;
+        min-height: 490px;
+    }
+    .content-project{
+        margin-top: 50px;
+    }
+    .proj1:last-child{
+        margin: 30px;
     }
 }

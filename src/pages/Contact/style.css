@@ -53,6 +53,10 @@
 @media screen and (min-width: 1300px){
     .wrap-contact {
         width: 1200px;
+        min-height: 490px;
         padding: 0;
+    }
+    .head-contact{
+        margin: 0 15px;
     }
 }

@@ -10,7 +10,6 @@ class Contact extends Component {
             <div className="wrap-contact">
                 <div className="head-contact">
                     <h2>Contact</h2>
-                    <p>I'm a creative Front-End developer</p>
                 </div>
                 <div className="contact">
                     <p>“If I had asked people what they wanted,

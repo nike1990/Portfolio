@@ -83,10 +83,14 @@
 @media screen and (min-width: 1300px){
     .wrapExp {
         width: 1200px;
+        min-height: 490px;
         padding: 0;
     }
     .wrapSkills {
         width: 1200px;
+    }
+    .head-experiences{
+        margin: 0 15px;
     }
     .infoCont:nth-child(odd) {
         margin-right: 0px ;

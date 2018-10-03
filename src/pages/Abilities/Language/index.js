@@ -9,7 +9,6 @@ class Language extends Component {
             <div className="wrap-abilities">
                 <div className="head-abilities">
                     <h2>Profile</h2>
-                    <p>I'm a creative Front-End developer</p>
                 </div>
 
                 <div className="skills">
