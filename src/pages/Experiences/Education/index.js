@@ -8,7 +8,7 @@ class Education extends Component {
         return (
             <div className="wrapExp">
                 <div className="head-experiences">
-                    <h2>Experiences</h2>
+                    <h2>Experience</h2>
                 </div>
                 <div className="wrapSkills">
                     <div className="buttonCont">
@@ -20,18 +20,19 @@ class Education extends Component {
                         <p>2008 - 2014</p>
                     </div>
                     <div className="infoCont ">
-                        <h4>Bachelor - Software Engineering</h4>
-                        <p>The education was mainly C++ , C# , SQL based programming,
-                            and I also learned about SQL, PHP, MVC, UML and more.</p>
+                        <h4>Specialist - Information Technology in Instrument Making</h4>
+                        <p>There were listened programming courses: Fundamentals of Algorithmization and Structured Programming,
+                            Object-Oriented Programming,
+                            Databases</p>
                     </div>
                     <div className="infoCont right">
                         <h4>PHP-Academy</h4>
                         <p>02-13-2017 - current time</p>
                     </div>
                     <div className="infoCont ">
-                        <h4>Full-stack web developer</h4>
-                        <p>In this course i learned about PHP , JavaScript , React ,
-                            ES7 , MySql , Node.js , MongoDb , NPM , Gulp , MVC Git and more...</p>
+                        <h4>Front-End web developer</h4>
+                        <p>In this course I learned about JavaScript, React,
+                            ES6, Node.js, NPM, Gulp, MVC Git and more...</p>
                     </div>
                 </div>
             </div>

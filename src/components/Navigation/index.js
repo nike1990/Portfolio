@@ -8,10 +8,10 @@ class Nav extends Component {
         return (
             <ul className="menu-main">
                 <li><Link to="/">Profile</Link></li>
-                <li><Link to="/experiences">Experiences</Link></li>
+                <li><Link to="/experiences">Experience</Link></li>
                 <li><Link to="/abilities">Abilities</Link></li>
-                <li><Link to="/project">Project</Link></li>
-                <li><Link to="/contact">Contact</Link></li>
+                <li><Link to="/project">Projects</Link></li>
+                <li><Link to="/contact">Contacts</Link></li>
             </ul>
 
         )

@@ -10,23 +10,24 @@ class Project extends Component {
         return (
             <div className="wrapProject">
                 <div className="head-project">
-                    <h2>Project</h2>
+                    <h2>Projects</h2>
                 </div>
                 <div className="content-project">
-                    <div className="proj1">
-                        <a href="https://waxon-pr.herokuapp.com/" target="_blank">
-                            <div className="hover"></div>
-                            <img src={img1}  alt=""/>
-                            <h2>Waxom</h2>
-                            <span>Landing page</span>
-                        </a>
-                    </div>
+
                     <div className="proj1">
                         <a href="https://portfolio-mstore.herokuapp.com/" target="_blank">
                             <div className="hover"></div>
                             <img src={img2}  alt=""/>
                             <h2>M Store</h2>
                             <span>Shop</span>
+                        </a>
+                    </div>
+                    <div className="proj1">
+                        <a href="https://waxon-pr.herokuapp.com/" target="_blank">
+                            <div className="hover"></div>
+                            <img src={img1}  alt=""/>
+                            <h2>Waxom</h2>
+                            <span>Landing page</span>
                         </a>
                     </div>
                     <div className="proj1">

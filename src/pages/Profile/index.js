@@ -13,10 +13,11 @@ class Profile extends Component {
                 <div className="content">
                     <div className="about flex">
                         <h3>About me</h3>
-                        <p>I'm a responsible and self-confident person
-                            I love structure and order and I also stand for quality.
-                            I love spending time on fixing little details and optimizing web apps.
-                            Also I like working in a team
+                        <p>Hi! My name is Nikita. I like the expression
+                            “Do your absolute best, and have a good time!”
+                            It reflects my approach to work. I am responsible,
+                            attentive to details and looking for the opportunity
+                            to work hard. There is a problem - there is a solution!
                         </p>
                         <div className="details">
                             <h3>Details</h3>
@@ -25,7 +26,7 @@ class Profile extends Component {
                             <p><span>Location:</span> Kiev, Ukraine</p>
                         </div>
                     </div>
-                    <div className="flex">
+                    <div className="flex myFoto">
                         <div className='container-img'>
                             <img className='about-img' src={myFoto} width={400} alt=""/>
                         </div>

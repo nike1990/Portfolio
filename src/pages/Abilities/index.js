@@ -14,7 +14,7 @@ class Abilities extends Component {
                 <div className="skills">
                     <div className="but">
                         <Link to="/skills"><button className="button">Skills</button></Link>
-                        <Link to="/language"><button className="button">Language</button></Link>
+                        <Link to="/language"><button className="button">Languages</button></Link>
                     </div>
                     <div className="skillBlok">
                         <div className="nameSkill">HTML5</div>
@@ -22,7 +22,7 @@ class Abilities extends Component {
                             <div className="circle"></div>
                             <div className="circle"></div>
                             <div className="circle"></div>
-                            <div className="circleEmpty"></div>
+                            <div className="circle"></div>
                             <div className="circleEmpty"></div>
                         </div>
                     </div>
@@ -32,7 +32,7 @@ class Abilities extends Component {
                             <div className="circle"></div>
                             <div className="circle"></div>
                             <div className="circle"></div>
-                            <div className="circleEmpty"></div>
+                            <div className="circle"></div>
                             <div className="circleEmpty"></div>
                         </div>
                     </div>
@@ -62,7 +62,7 @@ class Abilities extends Component {
                             <div className="circle"></div>
                             <div className="circle"></div>
                             <div className="circle"></div>
-                            <div className="circleEmpty"></div>
+                            <div className="circle"></div>
                             <div className="circleEmpty"></div>
                         </div>
                     </div>
@@ -72,7 +72,7 @@ class Abilities extends Component {
                             <div className="circle"></div>
                             <div className="circle"></div>
                             <div className="circle"></div>
-                            <div className="circleEmpty"></div>
+                            <div className="circle"></div>
                             <div className="circleEmpty"></div>
                         </div>
                     </div>

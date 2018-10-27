@@ -24,12 +24,10 @@
     margin: 0 15px;
 }
 .head-project h2 {
-    font:  32px/32px 'Oswald', sans-serif;
+    font:  32px/32px 'Helvetica Neue', sans-serif;
     color: #82cbc9;
 }
-.head-project p {
-    font:  16px/26px 'Oswald', sans-serif;
-}
+
 .proj1{
     width: 300px;
     height: 250px;
